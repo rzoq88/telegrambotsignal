@@ -205,7 +205,7 @@ bot.on("message", (msg) => {
 
     case "/signal":
       // setInterval(signal, 10000);
-      signal();
+      get();
 
       break;
     case "/top10":
